@@ -1,0 +1,32 @@
+.meme { display: block;
+       margin: auto;
+    border-radius: 20px;
+width: 300px;
+height: auto;}
+.vid { position: absolute; right: 0; bottom: 0; z-index: -1;}
+@media (min-aspect-ratio: 16/9){
+    .vid { width: 100%;
+        height: auto;}
+}
+
+@media (max-aspect-ratio: 16/9){
+    .vid { width: auto;
+    height: 100%;}
+}
+.No { color: white;
+text-align: center;}
+h1 { color: bisque;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+a { text-decoration: none;
+background-color: rgb(255, 255, 255);
+color: black;
+text-align: center;
+font-size: large;
+border-radius: 20px;
+width: 300px;
+display: block;
+margin: auto;}
+a:hover { background-color: black;
+color: bisque;
+cursor: pointer;}
